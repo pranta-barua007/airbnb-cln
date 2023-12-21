@@ -25,7 +25,7 @@ const Home = async ({ searchParams }: HomeProps) => {
   }
 
   return (
-    <ClientOnly>
+    // <ClientOnly>
       <Container>
         <div 
           className="
@@ -49,7 +49,7 @@ const Home = async ({ searchParams }: HomeProps) => {
           ))}
         </div>
       </Container>
-    </ClientOnly>
+    // </ClientOnly>
   )
 }
 
